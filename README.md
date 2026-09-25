@@ -55,13 +55,13 @@ Step 1: Hash Extraction via Online PDF Hash Converter
 
 * Exported and saved the resulting hash output into a plain-text file.
 
-![Hash Coverter](Screenshot-2026-09-23-090219.png)
+![Hash Coverter](./Screenshot-2026-09-23-090219.png)
 
 
 Step 2: Executing John the Ripper App
 Launched the John the Ripper (JTR) App.
 
-![JTF](Screenshot-2026-09-23-094223.png)
+![JTF](./Screenshot-2026-09-23-094223.png)
 
 Imported the saved hash file into the application interface.
 
@@ -69,7 +69,7 @@ Selected the target wordlist dictionary and initiated the cracking attack sessio
 
 The JTR app processed the candidate passwords until a match was identified.
 
-![Cracked password](Screenshot-2026-09-23-094152.png)
+![Cracked password](./Screenshot-2026-09-23-094152.png)
 
 
 Step 3: Verifying Document Access
@@ -77,7 +77,7 @@ Copied the recovered plain-text password from the JTR app.
 
 Opened the original protected PDF file, supplied the cracked password, and successfully unlocked the document.
 
-![Successful](Screenshot-2026-09-23-090848.png)
+![Successful](./Screenshot-2026-09-23-090848.png)
 
 
 
@@ -93,7 +93,7 @@ Step 1: Generating the Hash via Hash Calculator
 
 *Copied the complete hash string to the clipboard.
 
-![Hash Calculator](Screenshot-2026-09-23-093118.png)
+![Hash Calculator](./Screenshot-2026-09-23-093118.png)
 
 
 Step 2: Cracking via NETWORKWALKS Password Cracker
@@ -105,7 +105,7 @@ Step 2: Cracking via NETWORKWALKS Password Cracker
 
 *Received the interface message: "Password cracked successfully" along with the plain-text credential.
 
-![Password Cracked](Screenshot-2026-09-23-091712.png)
+![Password Cracked](./Screenshot-2026-09-23-091712.png)
 
 
 Step 3: Document Decryption Verification
@@ -113,7 +113,7 @@ Step 3: Document Decryption Verification
 
 *Applied the credential to the original PDF file, confirming full document decryption and access.
 
-![PDF Decrypted Successfully](Screenshot-2026-09-23-093602.png)
+![PDF Decrypted Successfully](./Screenshot-2026-09-23-093602.png)
 
 
 
