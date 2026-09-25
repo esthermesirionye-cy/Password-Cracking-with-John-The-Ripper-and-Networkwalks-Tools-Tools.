@@ -1,4 +1,4 @@
-**Password Recovery & Hash Analysis: John the Ripper (JTR) App & NETWORKWALKS Tools**
+**PASSWORD RECOVERY & HASH ANALYSIS: JOHN THE RIPPER(JTR) APP AND NETWORKWALKS TOOLS**
 
 
 
@@ -11,7 +11,7 @@ this lab demonstrates how cryptographic hashes are generated from encrypted docu
 extracted, and subjected to dictionary and brute-force attacks to recover credentials.
 
 
-**Objectives**
+**OBJECTIVES**
 * Understand Hash Extraction: Learn how security handlers encrypt PDF files and how cryptographic signatures are represented   in hash formats.
 
 * Offline Hash Cracking: Execute dictionary and brute-force attacks using the John the Ripper application against extracted    PDF hashes.
@@ -26,13 +26,13 @@ extracted, and subjected to dictionary and brute-force attacks to recover creden
   cracking utilities.
 
 
-**Security and Ethical Use**
+**SECURITY AND ETHICAL USE**
 DISCLAIMER: The techniques, software, and tools documented in this repository are for educational purposes, authorized security testing, and personal credential recovery only. Executing password attacks against systems or files without explicit permission from the owner is illegal and violates cybersecurity ethics.
 
 
 
 
-**Introduction to Password Cracking**
+**INTRODUCTION TO PASSWORD CRACKING**
 Password cracking is the process of recovering plain-text passwords from stored cryptographic hashes or encrypted containers. Modern applications do not store actual passwords directly; instead, they store a mathematical hash or use encryption keys derived from the password.
 
 When attempting to access an encrypted document (like a protected PDF), an auditor cannot read the file contents directly. Instead, the process involves:
@@ -46,14 +46,14 @@ When attempting to access an encrypted document (like a protected PDF), an audit
 
 
 
-**Technical Execution & Methodology**
+**TECHNICAL EXECUTION & METHODOLOGY**
 Method 1: Offline Attack via John the Ripper (JTR) App
 Step 1: Hash Extraction via Online PDF Hash Converter
 * Uploaded the target password-protected PDF file to an online hash extraction utility to convert the file header into a crackable hash string.
 
 * Exported and saved the resulting hash output into a plain-text file.
 
-[PLACEHOLDER: Insert screenshot showing the online hash extractor generating the PDF hash]
+![Hash Coverter](Screenshot-2026-09-23-090219)
 
 Step 2: Executing John the Ripper App
 Launched the John the Ripper (JTR) App.
