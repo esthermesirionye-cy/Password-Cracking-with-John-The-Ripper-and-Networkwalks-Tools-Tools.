@@ -53,7 +53,7 @@ Step 1: Hash Extraction via Online PDF Hash Converter
 
 * Exported and saved the resulting hash output into a plain-text file.
 
-![Hash Coverter](Screenshot%2026-09-23-20090219)
+![Hash Coverter](Screenshot%2026-09-23-090219.png)
 
 Step 2: Executing John the Ripper App
 Launched the John the Ripper (JTR) App.
