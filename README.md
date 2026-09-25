@@ -4,7 +4,11 @@
 
 
 Project Overview
-This project demonstrates the process of auditing, extracting, and cracking password-protected PDF documents using offline and web-based hash cracking techniques. By leveraging the John the Ripper (JTR) Application and NETWORKWALKS Tools, this lab demonstrates how cryptographic hashes are generated from encrypted documents, extracted, and subjected to dictionary and brute-force attacks to recover credentials.
+This project demonstrates the process of auditing, extracting, 
+and cracking password-protected PDF documents using offline and web-based hash cracking techniques.
+By leveraging the John the Ripper (JTR) Application and NETWORKWALKS Tools, 
+this lab demonstrates how cryptographic hashes are generated from encrypted documents, 
+extracted, and subjected to dictionary and brute-force attacks to recover credentials.
 
 
 **Objectives**
